@@ -7,13 +7,12 @@ import HowP2pWorks from "@/components/HowP2pWorks";
 import Faq from "@/components/Faq";
 const page = () => {
   return (
-    <div className="bg-[#1E1E1E]">
+    <div className="bg-[#000000]">
       <P2pLogo />
       <UserGuide />
       <P2pInnerNav />
       <AmountSection />
       <HowP2pWorks />
-      {/* <Faq /> */}
     </div>
   );
 };

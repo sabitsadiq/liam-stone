@@ -1,8 +1,8 @@
 import React from "react";
 
-const Testing = () => {
+const MainDoc = () => {
   return (
-    <div className="pt-8 w-11/12 pl-2 px-4 md:px-6 mx-auto bg-[#1E1E1E] h-screen text-[#ffffff] opacity-70">
+    <div className="pt-8 w-11/12 pl-2 px-4 md:px-6 mx-auto  bg-[#000000] h-screen text-[#ffffff] opacity-70">
       <h4 className="font-semibold text-4xl w-full md:w-1/2 xl:w-[51.666667%]">
         Be in the know, stay ahead of the curve.
       </h4>
@@ -30,4 +30,4 @@ const Testing = () => {
   );
 };
 
-export default Testing;
+export default MainDoc;

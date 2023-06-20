@@ -6,7 +6,7 @@ import TotalSupply from "@/components/TotalSupply";
 import BuyLsbts from "@/components/BuyLsbts";
 const page = () => {
   return (
-    <div className="bg-[#1E1E1E]">
+    <div className="bg-[#000000]">
       <Logo />
       <Supply />
       <BuyLsbt />

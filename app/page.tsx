@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main
-      className="bg-[#1E1E1E] w-full
+      className="bg-[#1E1E1E] bg-blend-overlay w-full
      h-screen"
     >
       <div className="w-1/4 flex gap-4 h-8 mx-auto pt-2  text-white">

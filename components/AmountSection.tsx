@@ -3,7 +3,7 @@ import Image from "next/image";
 const AmountSection = () => {
   return (
     <section className="w-11/12 mx-auto">
-      <div className="flex flex-col lg:flex-row gap-4 xl:gap-6 justify-between text-[#FFFFFF] opacity-50">
+      <div className="flex flex-col lg:flex-row xl:px-4 gap-4 xl:gap-6 justify-between text-[#FFFFFF] opacity-50">
         <div className="w-10/12 md:block md:w-1/2  lg:w-2/5 xl:w-1/3">
           <h4 className="mb-4">Amount</h4>
           <div className="flex rounded-xl justify-between bg-[#5A5A5A] px-4 py-4 md:py-2 opacity-17 gap-2">
@@ -12,8 +12,8 @@ const AmountSection = () => {
             <h4 className="text-[#E9420E]">Search</h4>
           </div>
         </div>
-        <div className="w-56 md:w-full md:flex gap-6">
-          <div className="lg:w-32 xl:w-44">
+        <div className="w-56 md:w-full md:flex gap-6 2xl:gap-20">
+          <div className="md:w-40 lg:w-32 xl:w-44">
             <h4 className="mb-4">FIAT</h4>
             <div className="flex items-center rounded-xl bg-[#5A5A5A] xl:w-44 justify-between px-3 py-2 opacity-17">
               <div className="flex gap-3 items-center">
@@ -34,7 +34,7 @@ const AmountSection = () => {
               />
             </div>
           </div>
-          <div className="w-56 mt-4 md:mt-0 md:w-fit">
+          <div className="w-56 mt-4 md:mt-0 md:w-fit 2xl:w-40">
             <h4 className="mb-4">Payment</h4>
             <div className="flex items-center xl:w-52 rounded-xl bg-[#5A5A5A] gap-4 px-3 py-2 opacity-17 justify-between">
               <h4>All payment</h4>
@@ -75,324 +75,323 @@ const AmountSection = () => {
           </div>
         </div>
       </div>
-      <div className="overflow-x-auto mt-12">
-        <table className="table-auto w-full">
-          <thead className="text-[#ffffff] opacity-50">
-            <tr className="flex gap-16 xl:w-full xl:justify-between">
-              <th scope="col" className="py-3 text-left">
-                Advertisers (Completion rate)
-              </th>
-              <th scope="col" className="w-[10.5rem] py-3 text-left">
-                Price
-              </th>
-              <th scope="col" className="py-3 text-left">
-                Limit/Available
-              </th>
-              <th
-                scope="col"
-                className="flex justify-between gap-20 xl:gap-12 py-3 text-left ml-28  xl:ml-32"
-              >
-                <span className="w-[5.5rem] xl:w-[7.5rem]">Payment</span>
-                <span className="flex gap-2">
-                  <span>Trade</span>
-                  <span className="flex justify-center self-start bg-[#0EE9B4] rounded-lg text-[#FFFFFF] opacity-90 font-medium text-xl w-20">
-                    0 fee
+      <div className="border border-thin rounded-xl mt-14">
+        <div className="overflow-x-auto mt-12">
+          <table className="table-auto w-full">
+            <thead>
+              <tr>
+                <th className="px-6 py-3 text-left text-[#ffffff] opacity-70 text-xl leading-8 font-medium tracking-wider">
+                  Advertisers (Completion rate)
+                </th>
+                <th className="px-6 py-3 text-left text-[#ffffff] opacity-70 text-xl leading-8 font-medium tracking-wider">
+                  Price
+                </th>
+                <th className="px-6 py-3 text-left text-[#ffffff] opacity-70 text-xl leading-8 font-medium tracking-wider">
+                  Limit/Available
+                </th>
+                <th className="flex gap-4  px-6 mt-4 py-3 text-left justify-between text-[#ffffff] opacity-70 text-xl leading-8 font-medium tracking-wider">
+                  <span>Payment</span>
+                  <span className="flex gap-4">
+                    <span>Trade</span>
+                    <span className="rounded-xl px-2 py-1 bg-[#0EE9B4]">
+                      0 fee
+                    </span>
                   </span>
-                </span>
-              </th>
-            </tr>
-          </thead>
-          <tbody className="w-full">
-            <tr className="flex gap-20  xl:justify-between">
-              <td className="block py-2 whitespace-nowrap text-[#FFFFFF] opacity-50">
-                <span className="flex gap-2 xl:font-bold xl:text-xl">
-                  <Image
-                    src="/image/BTCN - Bitcoin Networks.png"
-                    width="20"
-                    height="20"
-                    alt="bitcoin"
-                  />
-                  BTC-TINYGRL
-                </span>
-                <span className="font-medium text-base">
-                  47 orders|100% completion
-                </span>
-              </td>
-              <td className="flex py-2 gap-2 self-center whitespace-nowrap text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-xl">
-                $132,789,890
-                <span className="text-[#FFFFFF] opacity-50 text-xs self-center">
-                  CRC
-                </span>
-              </td>
-              <td className="py-2 whitespace-nowrap">
-                <span className="flex gap-2">
-                  <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
-                    Available
+                </th>
+              </tr>
+            </thead>
+            <tbody className="text-[#ffffff] font-medium text-xl opacity-90">
+              <tr className="font-medium text-xl">
+                <td className="px-6 py-4  whitespace-nowrap text-[#FFFFFF] opacity-50">
+                  <span className="flex gap-2 xl:font-bold xl:text-xl">
+                    <Image
+                      src="/image/BTCN - Bitcoin Networks.png"
+                      width="20"
+                      height="20"
+                      alt="bitcoin"
+                    />
+                    BTC-TINYGRL
                   </span>
-                  <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
-                    O.OO189384 BTC
+                  <span className="font-medium text-base">
+                    47 orders|100% completion
                   </span>
-                </span>
-                <span className="flex gap-2">
-                  <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
-                    Limit
+                </td>
+                <td className="flex px-6 py-4 gap-2 self-center whitespace-nowrap text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-xl">
+                  $132,789,890
+                  <span className="text-[#FFFFFF] opacity-50 text-xs self-center">
+                    CRC
                   </span>
-                  <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
-                    $O.OO189 - $30,000.00
+                </td>
+                <td className="px-6 py-4whitespace-nowrap">
+                  <span className="flex gap-2">
+                    <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
+                      Available
+                    </span>
+                    <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
+                      O.OO189384 BTC
+                    </span>
                   </span>
-                </span>
-              </td>
-              <td className="flex 2xl:ml-0 justify-between gap-12 py-2 whitespace-nowrap font-medium text-xl">
-                <span className="self-center text-[#FFFFFF] opacity-90">
-                  Bank tranfer
-                </span>
-                <span className="bg-[#E99F0E] rounded-lg w-32 flex justify-center items-center py-2 text-[#FFFFFF] opacity-90">
-                  BUY USDT
-                </span>
-              </td>
-            </tr>
-            <tr className="flex gap-20  xl:justify-between">
-              <td className="block py-2 whitespace-nowrap text-[#FFFFFF] opacity-50">
-                <span className="flex gap-2 xl:font-bold xl:text-xl">
-                  <Image
-                    src="/image/BTCN - Bitcoin Networks.png"
-                    width="20"
-                    height="20"
-                    alt="bitcoin"
-                  />
-                  BTC-TINYGRL
-                </span>
-                <span className="font-medium text-base">
-                  47 orders|100% completion
-                </span>
-              </td>
-              <td className="flex gap-2 py-2 whitespace-nowrap self-center text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-xl">
-                $132,789,890
-                <span className="text-[#FFFFFF] opacity-50 text-xs self-center">
-                  CRC
-                </span>
-              </td>
-              <td className="py-2 whitespace-nowrap">
-                <span className="flex gap-2">
-                  <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
-                    Available
+                  <span className="flex gap-2">
+                    <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
+                      Limit
+                    </span>
+                    <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
+                      $O.OO189-$30,000.00
+                    </span>
                   </span>
-                  <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
-                    O.OO189384 BTC
+                </td>
+                <td className="flex gap-x-4  2xl:ml-0 justify-between px-6 py-4 whitespace-nowrap font-medium text-xl">
+                  <span className="self-center text-[#FFFFFF] opacity-90">
+                    Bank tranfer
                   </span>
-                </span>
-                <span className="flex gap-2">
-                  <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
-                    Limit
+                  <span className="bg-[#E99F0E] rounded-lg w-32 xl:w-40 flex justify-center items-center py-2 text-[#FFFFFF] opacity-90">
+                    BUY USDT
                   </span>
-                  <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
-                    $O.OO189 - $30,000.00
+                </td>
+              </tr>
+              <tr className="font-medium text-xl">
+                <td className="px-6 py-4  whitespace-nowrap text-[#FFFFFF] opacity-50">
+                  <span className="flex gap-2 xl:font-bold xl:text-xl">
+                    <Image
+                      src="/image/BTCN - Bitcoin Networks.png"
+                      width="20"
+                      height="20"
+                      alt="bitcoin"
+                    />
+                    BTC-TINYGRL
                   </span>
-                </span>
-              </td>
-              <td className="flex justify-between gap-12 py-2 whitespace-nowrap  font-medium text-xl">
-                <span className="self-center text-[#FFFFFF] opacity-90">
-                  Bank tranfer
-                </span>
-                <span className="bg-[#E99F0E] rounded-lg w-32 flex justify-center items-center py-2 text-[#FFFFFF] opacity-90">
-                  BUY USDT
-                </span>
-              </td>
-            </tr>
-            <tr className="flex gap-20 xl:justify-between">
-              <td className="block py-2 whitespace-nowrap text-[#FFFFFF] opacity-50">
-                <span className="flex gap-2 xl:font-bold xl:text-xl">
-                  <Image
-                    src="/image/BTCN - Bitcoin Networks.png"
-                    width="20"
-                    height="20"
-                    alt="bitcoin"
-                  />
-                  BTC-TINYGRL
-                </span>
-                <span className="font-medium text-base">
-                  47 orders|100% completion
-                </span>
-              </td>
-              <td className="flex gap-2 py-2 self-center whitespace-nowrap text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-xl">
-                $132,789,890
-                <span className="text-[#FFFFFF] opacity-50 self-center text-xs">
-                  CRC
-                </span>
-              </td>
-              <td className="py-2 whitespace-nowrap">
-                <span className="flex gap-2">
-                  <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
-                    Available
+                  <span className="font-medium text-base">
+                    47 orders|100% completion
                   </span>
-                  <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
-                    O.OO189384 BTC
+                </td>
+                <td className="flex px-6 py-4 gap-2 self-center whitespace-nowrap text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-xl">
+                  $132,789,890
+                  <span className="text-[#FFFFFF] opacity-50 text-xs self-center">
+                    CRC
                   </span>
-                </span>
-                <span className="flex gap-2">
-                  <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
-                    Limit
+                </td>
+                <td className="px-6 py-4whitespace-nowrap">
+                  <span className="flex gap-2">
+                    <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
+                      Available
+                    </span>
+                    <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
+                      O.OO189384 BTC
+                    </span>
                   </span>
-                  <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
-                    $O.OO189 - $30,000.00
+                  <span className="flex gap-2">
+                    <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
+                      Limit
+                    </span>
+                    <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
+                      $O.OO189-$30,000.00
+                    </span>
                   </span>
-                </span>
-              </td>
-              <td className="flex justify-between gap-12 py-2 whitespace-nowrap  font-medium text-xl">
-                <span className="self-center text-[#FFFFFF] opacity-90">
-                  Bank tranfer
-                </span>
-                <span className="bg-[#E99F0E] rounded-lg w-32 flex justify-center items-center py-2 text-[#FFFFFF] opacity-90">
-                  BUY USDT
-                </span>
-              </td>
-            </tr>
-            <tr className="flex gap-20  xl:justify-between">
-              <td className="block py-2 whitespace-nowrap text-[#FFFFFF] opacity-50">
-                <span className="flex gap-2 xl:font-bold xl:text-xl">
-                  <Image
-                    src="/image/BTCN - Bitcoin Networks.png"
-                    width="20"
-                    height="20"
-                    alt="bitcoin"
-                  />
-                  BTC-TINYGRL
-                </span>
-                <span className="font-medium text-base">
-                  47 orders|100% completion
-                </span>
-              </td>
-              <td className="flex gap-2 py-2 self-center whitespace-nowrap text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-xl">
-                $132,789,890
-                <span className="text-[#FFFFFF] opacity-50 self-center text-xs">
-                  CRC
-                </span>
-              </td>
-              <td className="py-2 whitespace-nowrap">
-                <span className="flex gap-2">
-                  <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
-                    Available
+                </td>
+                <td className="flex 2xl:ml-0 justify-between px-6 py-4 whitespace-nowrap font-medium text-xl">
+                  <span className="self-center text-[#FFFFFF] opacity-90">
+                    Bank tranfer
                   </span>
-                  <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
-                    O.OO189384 BTC
+                  <span className="bg-[#E99F0E] rounded-lg w-32 xl:w-40 flex justify-center items-center py-2 text-[#FFFFFF] opacity-90">
+                    BUY USDT
                   </span>
-                </span>
-                <span className="flex gap-2">
-                  <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
-                    Limit
+                </td>
+              </tr>
+              <tr className="font-medium text-xl">
+                <td className="px-6 py-4  whitespace-nowrap text-[#FFFFFF] opacity-50">
+                  <span className="flex gap-2 xl:font-bold xl:text-xl">
+                    <Image
+                      src="/image/BTCN - Bitcoin Networks.png"
+                      width="20"
+                      height="20"
+                      alt="bitcoin"
+                    />
+                    BTC-TINYGRL
                   </span>
-                  <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
-                    $O.OO189 - $30,000.00
+                  <span className="font-medium text-base">
+                    47 orders|100% completion
                   </span>
-                </span>
-              </td>
-              <td className="flex justify-between gap-12 py-2 whitespace-nowrap font-medium text-xl">
-                <span className="self-center text-[#FFFFFF] opacity-90">
-                  Bank tranfer
-                </span>
-                <span className="bg-[#E99F0E] rounded-lg w-32 flex justify-center items-center py-2 text-[#FFFFFF] opacity-90">
-                  BUY USDT
-                </span>
-              </td>
-            </tr>
-            <tr className="flex gap-20  xl:justify-between">
-              <td className="block py-2 whitespace-nowrap text-[#FFFFFF] opacity-50">
-                <span className="flex gap-2 xl:font-bold xl:text-xl">
-                  <Image
-                    src="/image/BTCN - Bitcoin Networks.png"
-                    width="20"
-                    height="20"
-                    alt="bitcoin"
-                  />
-                  BTC-TINYGRL
-                </span>
-                <span className="font-medium text-base">
-                  47 orders|100% completion
-                </span>
-              </td>
-              <td className="flex gap-2 py-2 whitespace-nowrap self-center text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-xl">
-                $132,789,890
-                <span className="text-[#FFFFFF] opacity-50 self-center text-xs">
-                  CRC
-                </span>
-              </td>
-              <td className="py-2 whitespace-nowrap">
-                <span className="flex gap-2">
-                  <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
-                    Available
+                </td>
+                <td className="flex px-6 py-4 gap-2 self-center whitespace-nowrap text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-xl">
+                  $132,789,890
+                  <span className="text-[#FFFFFF] opacity-50 text-xs self-center">
+                    CRC
                   </span>
-                  <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
-                    O.OO189384 BTC
+                </td>
+                <td className="px-6 py-4whitespace-nowrap">
+                  <span className="flex gap-2">
+                    <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
+                      Available
+                    </span>
+                    <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
+                      O.OO189384 BTC
+                    </span>
                   </span>
-                </span>
-                <span className="flex gap-2">
-                  <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
-                    Limit
+                  <span className="flex gap-2">
+                    <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
+                      Limit
+                    </span>
+                    <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
+                      $O.OO189-$30,000.00
+                    </span>
                   </span>
-                  <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
-                    $O.OO189 - $30,000.00
+                </td>
+                <td className="flex 2xl:ml-0 justify-between px-6 py-4 whitespace-nowrap font-medium text-xl">
+                  <span className="self-center text-[#FFFFFF] opacity-90">
+                    Bank tranfer
                   </span>
-                </span>
-              </td>
-              <td className="flex justify-between gap-12 py-2 whitespace-nowrap font-medium text-xl">
-                <span className="self-center text-[#FFFFFF] opacity-90">
-                  Bank tranfer
-                </span>
-                <span className="bg-[#E99F0E] rounded-lg w-32 flex justify-center items-center py-2 text-[#FFFFFF] opacity-90">
-                  BUY USDT
-                </span>
-              </td>
-            </tr>
-            <tr className="flex gap-20  xl:justify-between">
-              <td className="block py-2 whitespace-nowrap text-[#FFFFFF] opacity-50">
-                <span className="flex gap-2 xl:font-bold xl:text-xl">
-                  <Image
-                    src="/image/BTCN - Bitcoin Networks.png"
-                    width="20"
-                    height="20"
-                    alt="bitcoin"
-                  />
-                  BTC-TINYGRL
-                </span>
-                <span className="font-medium text-base">
-                  47 orders|100% completion
-                </span>
-              </td>
-              <td className="flex gap-2 py-2 self-center whitespace-nowrap text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-xl">
-                $132,789,890
-                <span className="text-[#FFFFFF] opacity-50 self-center text-xs">
-                  CRC
-                </span>
-              </td>
-              <td className="py-2 whitespace-nowrap">
-                <span className="flex gap-2">
-                  <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
-                    Available
+                  <span className="bg-[#E99F0E] rounded-lg w-32 xl:w-40 flex justify-center items-center py-2 text-[#FFFFFF] opacity-90">
+                    BUY USDT
                   </span>
-                  <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
-                    O.OO189384 BTC
+                </td>
+              </tr>
+              <tr className="font-medium text-xl">
+                <td className="px-6 py-4  whitespace-nowrap text-[#FFFFFF] opacity-50">
+                  <span className="flex gap-2 xl:font-bold xl:text-xl">
+                    <Image
+                      src="/image/BTCN - Bitcoin Networks.png"
+                      width="20"
+                      height="20"
+                      alt="bitcoin"
+                    />
+                    BTC-TINYGRL
                   </span>
-                </span>
-                <span className="flex gap-2">
-                  <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
-                    Limit
+                  <span className="font-medium text-base">
+                    47 orders|100% completion
                   </span>
-                  <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
-                    $O.OO189 - $30,000.00
+                </td>
+                <td className="flex px-6 py-4 gap-2 self-center whitespace-nowrap text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-xl">
+                  $132,789,890
+                  <span className="text-[#FFFFFF] opacity-50 text-xs self-center">
+                    CRC
                   </span>
-                </span>
-              </td>
-              <td className="flex justify-between gap-12 py-2 whitespace-nowrap font-medium text-xl">
-                <span className="self-center text-[#FFFFFF] opacity-90">
-                  Bank tranfer
-                </span>
-                <span className="bg-[#E99F0E] rounded-lg w-32 flex justify-center items-center py-2 text-[#FFFFFF] opacity-90">
-                  BUY USDT
-                </span>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+                </td>
+                <td className="px-6 py-4whitespace-nowrap">
+                  <span className="flex gap-2">
+                    <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
+                      Available
+                    </span>
+                    <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
+                      O.OO189384 BTC
+                    </span>
+                  </span>
+                  <span className="flex gap-2">
+                    <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
+                      Limit
+                    </span>
+                    <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
+                      $O.OO189-$30,000.00
+                    </span>
+                  </span>
+                </td>
+                <td className="flex 2xl:ml-0 justify-between px-6 py-4 whitespace-nowrap font-medium text-xl">
+                  <span className="self-center text-[#FFFFFF] opacity-90">
+                    Bank tranfer
+                  </span>
+                  <span className="bg-[#E99F0E] rounded-lg w-32 xl:w-40 flex justify-center items-center py-2 text-[#FFFFFF] opacity-90">
+                    BUY USDT
+                  </span>
+                </td>
+              </tr>
+              <tr className="font-medium text-xl">
+                <td className="px-6 py-4  whitespace-nowrap text-[#FFFFFF] opacity-50">
+                  <span className="flex gap-2 xl:font-bold xl:text-xl">
+                    <Image
+                      src="/image/BTCN - Bitcoin Networks.png"
+                      width="20"
+                      height="20"
+                      alt="bitcoin"
+                    />
+                    BTC-TINYGRL
+                  </span>
+                  <span className="font-medium text-base">
+                    47 orders|100% completion
+                  </span>
+                </td>
+                <td className="flex px-6 py-4 gap-2 self-center whitespace-nowrap text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-xl">
+                  $132,789,890
+                  <span className="text-[#FFFFFF] opacity-50 text-xs self-center">
+                    CRC
+                  </span>
+                </td>
+                <td className="px-6 py-4whitespace-nowrap">
+                  <span className="flex gap-2">
+                    <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
+                      Available
+                    </span>
+                    <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
+                      O.OO189384 BTC
+                    </span>
+                  </span>
+                  <span className="flex gap-2">
+                    <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
+                      Limit
+                    </span>
+                    <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
+                      $O.OO189-$30,000.00
+                    </span>
+                  </span>
+                </td>
+                <td className="flex 2xl:ml-0 justify-between px-6 py-4 whitespace-nowrap font-medium text-xl">
+                  <span className="self-center text-[#FFFFFF] opacity-90">
+                    Bank tranfer
+                  </span>
+                  <span className="bg-[#E99F0E] rounded-lg w-32 xl:w-40 flex justify-center items-center py-2 text-[#FFFFFF] opacity-90">
+                    BUY USDT
+                  </span>
+                </td>
+              </tr>
+              <tr className="font-medium text-xl">
+                <td className="px-6 py-4  whitespace-nowrap text-[#FFFFFF] opacity-50">
+                  <span className="flex gap-2 xl:font-bold xl:text-xl">
+                    <Image
+                      src="/image/BTCN - Bitcoin Networks.png"
+                      width="20"
+                      height="20"
+                      alt="bitcoin"
+                    />
+                    BTC-TINYGRL
+                  </span>
+                  <span className="font-medium text-base">
+                    47 orders|100% completion
+                  </span>
+                </td>
+                <td className="flex px-6 py-4 gap-2 self-center whitespace-nowrap text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-xl">
+                  $132,789,890
+                  <span className="text-[#FFFFFF] opacity-50 text-xs self-center">
+                    CRC
+                  </span>
+                </td>
+                <td className="px-6 py-4whitespace-nowrap">
+                  <span className="flex gap-2">
+                    <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
+                      Available
+                    </span>
+                    <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
+                      O.OO189384 BTC
+                    </span>
+                  </span>
+                  <span className="flex gap-2">
+                    <span className="text-[#FFFFFF] opacity-50 font-medium text-base">
+                      Limit
+                    </span>
+                    <span className="text-[#FFFFFF] opacity-90 xl:font-semibold xl:text-lg">
+                      $O.OO189-$30,000.00
+                    </span>
+                  </span>
+                </td>
+                <td className="flex 2xl:ml-0 justify-between px-6 py-4 whitespace-nowrap font-medium text-xl">
+                  <span className="self-center text-[#FFFFFF] opacity-90">
+                    Bank tranfer
+                  </span>
+                  <span className="bg-[#E99F0E] rounded-lg w-32 xl:w-40 flex justify-center items-center py-2 text-[#FFFFFF] opacity-90">
+                    BUY USDT
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
   );

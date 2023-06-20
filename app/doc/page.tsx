@@ -1,12 +1,11 @@
 import React from "react";
 import DocLogo from "@/components/DocLogo";
-import Testing from "@/components/Testing";
+import MainDoc from "@/components/MainDoc";
 const page = () => {
   return (
-    <div className="w-full bg-[#1E1E1E]">
+    <div className="w-full bg-[#000000]">
       <DocLogo />
-      {/* <NewDoc/> */}
-      <Testing />
+      <MainDoc />
     </div>
   );
 };

@@ -13,11 +13,68 @@ const BuyLsbts = () => {
       </p>
       <div className="mt-14 md:mt-24">
         <div className="border border-thin rounded-xl">
-          <h1 className="text-[#ffffff] opacity-90 font-medium text-3xl md:text-4xl px-6 py-3">
+          <h1 className="text-[#ffffff] opacity-90 font-medium text-5xl mt-6 md:mx-4 px-6 py-3">
             Burn transaction
           </h1>
-          <div className="overflow-x-auto">
-            <table className="table-fixed m-6">
+          <div className="overflow-x-auto md:m-4">
+            <table className="min-w-full">
+              <thead>
+                <tr>
+                  <th className="px-6 py-3 text-left text-[#ffffff] opacity-70 text-xl leading-8 font-medium tracking-wider">
+                    Time
+                  </th>
+                  <th className="px-6 py-3 text-left text-[#ffffff] opacity-70 text-xl leading-8 font-medium tracking-wider">
+                    Transaction ID
+                  </th>
+                  <th className="px-6 py-3 text-left text-[#ffffff] opacity-70 text-xl leading-8 font-medium tracking-wider">
+                    Amount
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="text-[#ffffff] opacity-90 font-medium text-xl">
+                <tr>
+                  <td className="px-6 py-4 whitespace-no-wrap">$2347</td>
+                  <td className="flex flex-col px-6 py-4 whitespace-nowrap text-[#E9420E]">
+                    <span>0x4j5nfm39494i2u4uwiejw9332</span>
+                    <span>ek39o3e jwdkwdmwoiw2340</span>
+                  </td>
+                  <td className="px-6 py-4 whitespace-no-wrap">123,3494</td>
+                </tr>
+                <tr>
+                  <td className="px-6 py-4 whitespace-no-wrap">$2347</td>
+                  <td className="flex flex-col px-6 py-4 whitespace-nowrap text-[#E9420E]">
+                    <span>0x4j5nfm39494i2u4uwiejw9332</span>
+                    <span>ek39o3e jwdkwdmwoiw2340</span>
+                  </td>
+                  <td className="px-6 py-4 whitespace-no-wrap">123,3494</td>
+                </tr>
+                <tr>
+                  <td className="px-6 py-4 whitespace-no-wrap">$2347</td>
+                  <td className="flex flex-col px-6 py-4 whitespace-nowrap text-[#E9420E]">
+                    <span>0x4j5nfm39494i2u4uwiejw9332</span>
+                    <span>ek39o3e jwdkwdmwoiw2340</span>
+                  </td>
+                  <td className="px-6 py-4 whitespace-no-wrap">123,3494</td>
+                </tr>
+                <tr>
+                  <td className="px-6 py-4 whitespace-no-wrap">$2347</td>
+                  <td className="flex flex-col px-6 py-4 whitespace-nowrap text-[#E9420E]">
+                    <span>0x4j5nfm39494i2u4uwiejw9332</span>
+                    <span>ek39o3e jwdkwdmwoiw2340</span>
+                  </td>
+                  <td className="px-6 py-4 whitespace-no-wrap">123,3494</td>
+                </tr>
+                <tr>
+                  <td className="px-6 py-4 whitespace-no-wrap">$2347</td>
+                  <td className="flex flex-col px-6 py-4 whitespace-nowrap text-[#E9420E]">
+                    <span>0x4j5nfm39494i2u4uwiejw9332</span>
+                    <span>ek39o3e jwdkwdmwoiw2340</span>
+                  </td>
+                  <td className="px-6 py-4 whitespace-no-wrap">123,3494</td>
+                </tr>
+              </tbody>
+            </table>
+            {/* <table className="table-fixed m-6">
               <thead className="text-[#ffffff] opacity-70">
                 <tr className="text-sm text-start flex justify-between gap-4">
                   <th scope="col" className="px-6 py-3 text-left">
@@ -73,7 +130,7 @@ const BuyLsbts = () => {
                   <td className="px-6 py-2 whitespace-nowrap">123,3494</td>
                 </tr>
               </tbody>
-            </table>
+            </table> */}
           </div>
         </div>
       </div>
