@@ -4,18 +4,18 @@ const AmountSection = () => {
   return (
     <section className="w-11/12 mx-auto">
       <div className="flex flex-col lg:flex-row xl:px-4 gap-4 xl:gap-6 justify-between text-[#FFFFFF] opacity-50">
-        <div className="w-10/12 md:block md:w-1/2  lg:w-2/5 xl:w-1/3">
+        <div className="w-10/12 md:block md:w-1/2  lg:w-2/5">
           <h4 className="mb-4">Amount</h4>
-          <div className="flex rounded-xl justify-between bg-[#5A5A5A] px-4 py-4 md:py-2 opacity-17 gap-2">
+          <div className="flex rounded-xl justify-between bg-[#5A5A5A] px-4 py-4 opacity-17 gap-2">
             <h4>Enter amount</h4>
             <h4>CNY</h4>
             <h4 className="text-[#E9420E]">Search</h4>
           </div>
         </div>
-        <div className="w-56 md:w-full md:flex gap-6 2xl:gap-20">
-          <div className="md:w-40 lg:w-32 xl:w-44">
+        <div className="w-56 md:w-full md:flex gap-6 2xl:justify-between">
+          <div className="md:w-40 lg:w-32 xl:w-40 2xl:w-52">
             <h4 className="mb-4">FIAT</h4>
-            <div className="flex items-center rounded-xl bg-[#5A5A5A] xl:w-44 justify-between px-3 py-2 opacity-17">
+            <div className="flex items-center rounded-xl bg-[#5A5A5A] justify-between px-3 py-2 md:py-4 opacity-17">
               <div className="flex gap-3 items-center">
                 <Image
                   src="/image/EPRO - EthereumPro.png"
@@ -34,9 +34,9 @@ const AmountSection = () => {
               />
             </div>
           </div>
-          <div className="w-56 mt-4 md:mt-0 md:w-fit 2xl:w-40">
+          <div className="w-56 mt-4 md:mt-0 md:w-fit xl:w-48 2xl:w-64">
             <h4 className="mb-4">Payment</h4>
-            <div className="flex items-center xl:w-52 rounded-xl bg-[#5A5A5A] gap-4 px-3 py-2 opacity-17 justify-between">
+            <div className="flex items-center rounded-xl bg-[#5A5A5A] gap-4 px-3 py-2 md:py-4 opacity-17 justify-between">
               <h4>All payment</h4>
               <Image
                 src="/image/arrow.png"
@@ -46,9 +46,9 @@ const AmountSection = () => {
               />
             </div>
           </div>
-          <div className="mt-4 md:mt-0 xl:w-56">
+          <div className="mt-4 md:mt-0 xl:w-48 2xl:w-64">
             <h4 className="mb-4">Available regions</h4>
-            <div className="flex items-center justify-between rounded-xl bg-[#5A5A5A] px-3 py-2 opacity-17 gap-4">
+            <div className="flex items-center justify-between rounded-xl bg-[#5A5A5A] px-3 py-2 md:py-4 opacity-17 gap-4">
               <h4>All regions</h4>
               <Image
                 src="/image/arrow.png"
@@ -58,8 +58,8 @@ const AmountSection = () => {
               />
             </div>
           </div>
-          <div className="flex items-end mt-4 w-40 xl:w-44 justify-between">
-            <div className="flex gap-4 mb-2">
+          <div className="flex items-end mt-4 w-40 justify-between">
+            <div className="flex gap-4 md:mt-6 self-center">
               <h4>Filter</h4>
               <Image
                 src="/image/arrow.png"
@@ -69,7 +69,7 @@ const AmountSection = () => {
                 alt="arrow"
               />
             </div>
-            <div className=" bg-[#E9420E] opacity-17 px-3 py-2  rounded-xl">
+            <div className=" bg-[#E9420E] opacity-17 px-3 py-2 md:py-4 rounded-xl">
               <div>Not Now</div>
             </div>
           </div>

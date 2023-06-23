@@ -4,8 +4,8 @@ const HowP2pWorks = () => {
   return (
     <section className="w-11/12 mx-auto mt-12 text-[#ffffff] opacity-90">
       <h2 className="font-semibold text-3xl">HOW P2P works</h2>
-      <div className="flex justify-between font-semibold text-2xl mt-4 xl:w-1/4">
-        <h4>Buy crypto</h4>
+      <div className="flex justify-between font-semibold text-2xl mt-4 2xl:mt-6 xl:w-1/4">
+        <h4 className="border-b-[3px] border-[#E9420E]">Buy crypto</h4>
         <h4>Sell crypto</h4>
       </div>
       <div className="w-full grid grid-col md:grid-cols-2 xl:grid-cols-3 flex-col md:flex-row justify-between mt-4">
