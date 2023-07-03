@@ -11,8 +11,10 @@ module.exports = {
   theme: {
     extend: {
       linearGradientColor: {
-        "custom-gradient":
-          "linear-gradient(180deg, #5A5A5A 0%, rgba(0, 0, 0, 0) 100%)",
+        gradientColorStops: {
+          "custom-blue": "#1e40af",
+          "custom-green": "#4ade80",
+        },
       },
     },
   },
