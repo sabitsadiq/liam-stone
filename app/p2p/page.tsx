@@ -4,7 +4,6 @@ import UserGuide from "@/components/UserGuide";
 import P2pInnerNav from "@/components/P2pInnerNav";
 import AmountSection from "@/components/AmountSection";
 import HowP2pWorks from "@/components/HowP2pWorks";
-import Faq from "@/components/Faq";
 const page = () => {
   return (
     <div className="bg-[#000000]">

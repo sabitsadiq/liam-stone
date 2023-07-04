@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 const EnterNumberBody = () => {
   return (
     <section className="p-4">
@@ -27,12 +28,14 @@ const EnterNumberBody = () => {
               </div>
             </div>
           </div>
-          <button
-            className="bg-gradient-to-r from-[#E9420E] to-[#FFDD55] rounded-xl w-full text-xl font-medium py-3 px-8 text-[#ffffff] opacity-90 mt-10"
-            type="submit"
-          >
-            Submit
-          </button>
+          <Link href="/passcode">
+            <button
+              className="bg-gradient-to-r from-[#E9420E] to-[#FFDD55] rounded-xl w-full text-xl font-medium py-3 px-8 text-[#ffffff] opacity-90 mt-10"
+              type="submit"
+            >
+              Submit
+            </button>
+          </Link>
         </div>
         <div className="w-11/12 md:w-full bg-cover mx-auto">
           <Image

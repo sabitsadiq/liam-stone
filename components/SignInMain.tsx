@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 const SignInMain = () => {
   return (
-    <section className="w-11/12 mx-auto pt-4 pb-4 md:pb-0 xl:pt-12">
-      <div className="flex flex-col md:flex-row gap-4 md:gap-8 lg:gap-14 xl:gap-32 xl:w-3/4 2xl:w-3/5 md:mx-auto ">
-        <div className="w-full gap-8 md:w-1/2">
+    <section className="w-11/12 mx-auto pt-4 pb-4 md:pb-8 xl:pt-12">
+      <div className="flex flex-col lg:flex-row gap-4 md:gap-8 lg:gap-14 xl:gap-32 lg:w-3/4 2xl:w-3/5 mx-auto ">
+        <div className="w-full md:w-3/5 gap-8 mx-auto lg:w-1/2">
           <div className="flex flex-col gap-14 mt-4">
             <div className="flex justify-between bg-[#0C0C0C]">
               <Link className="/" href="/signIn">
@@ -24,7 +24,7 @@ const SignInMain = () => {
                 </button>
               </Link>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-8 mt-8">
               <div className="rounded-xl bg-[#E9430F4D] opacity-30  px-1 py-1">
                 <div className="flex">
                   <div className="w-[90%]">
@@ -70,7 +70,7 @@ const SignInMain = () => {
                   Forget Password
                 </span>
               </div>
-              <div className=" rounded-full mt-10 md:hidden ">
+              <div className=" rounded-full mt-10 lg:hidden ">
                 <button className="rounded-xl  bg-clip-border to-yellow-300 border-[1px] w-full text-lg font-medium py-3 px-8 text-[#ffffff] opacity-90  flex justify-center items-center gap-2">
                   <Image
                     src="/image/logosGoogleIcon.png"
@@ -86,15 +86,15 @@ const SignInMain = () => {
                   Sign in
                 </button>
               </Link>
-              {/* <div className="flex justify-center font-medium text-lg text-[#FFFFFF]">
-                Sign in
-              </div> */}
+              <div className="flex justify-center font-medium text-lg text-[#FFFFFF]">
+                Sign up
+              </div>
             </div>
           </div>
         </div>
-        <div className="hidden md:flex self-center md:w-1/2">
+        <div className="hidden lg:flex self-center lg:w-1/2">
           <div className=" rounded-full mt-10 md:mt-0 w-full">
-            <button className="rounded-xl  bg-clip-border to-yellow-300 border-[1px] w-full text-lg font-medium py-3 px-8 text-[#ffffff] opacity-90  flex justify-center items-center gap-2">
+            <button className="rounded-xl  bg-clip-border to-yellow-300 border-[1px] w-full lg:w-11/12 text-lg font-medium py-3 px-8 text-[#ffffff] opacity-90  flex justify-center items-center gap-2">
               <Image
                 src="/image/logosGoogleIcon.png"
                 width="20"
