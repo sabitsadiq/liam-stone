@@ -79,14 +79,16 @@ const SignInWithNumberMain = () => {
                   Continue with google
                 </button>
               </div>
-              <Link href="/" className="w-full">
+              <Link href="/passcode" className="w-full">
                 <button className="bg-gradient-to-r from-[#E9420E] to-[#FFDD55] rounded-xl px-4 py-2 w-full font-medium text-lg text-[#FFFFFF] mt-5">
                   Sign in
                 </button>
               </Link>
-              <div className="flex justify-center font-medium text-lg text-[#FFFFFF]">
-                Sign up
-              </div>
+              <Link href="/signup">
+                <div className="flex justify-center font-medium text-lg text-[#FFFFFF]">
+                  Sign up
+                </div>
+              </Link>
             </div>
           </div>
         </div>

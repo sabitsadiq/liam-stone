@@ -28,7 +28,9 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/About.js"
+    "app/About.js",
+    "../traful/components/PostPackage/TripInfo.tsx",
+    "../traful/components/PostPackage/PostPackageIntro.tsx"
   ],
   "exclude": ["node_modules"]
 }

@@ -17,7 +17,7 @@ const SignUpBtn = () => {
           </button>
         </Link>
         <div className="border-b-[1px] border-[#ffffff] opacity-30 w-1/4 mx-auto py-4 mb-6"></div>
-        <div className=" rounded-full mt-10 md:pb-20">
+        <div className=" rounded-full mt-10 md:pb-40">
           <button className="rounded-xl  bg-clip-border to-yellow-300 border-[1px] w-full text-lg font-medium py-3 px-8 text-[#ffffff] opacity-90  flex justify-center items-center gap-2">
             <Image
               src="/image/logosGoogleIcon.png"

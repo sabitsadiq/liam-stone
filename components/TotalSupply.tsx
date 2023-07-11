@@ -3,8 +3,8 @@ import React from "react";
 const TotalSupply = () => {
   return (
     <div className="w-11/12 mx-auto mt-14 md:mt-24 px-4 md:p-6">
-      <div className="border border-thin rounded-xl">
-        <h2 className="text-[#ffffff] opacity-90 font-semibold text-4xl mt-6 md:mx-4 px-6 py-3">
+      <div className="border-b-[1px] border-r-[1px] rounded-xl bg-gradient-to-b from-[#5A5A5A5A] to-transparent bg-opacity-10">
+        <h2 className="text-[#ffffff] opacity-90 font-semibold text-4xl  pt-12 md:mx-4 px-6 py-3">
           Total supply
         </h2>
         <div className="overflow-x-auto md:m-4">
@@ -27,46 +27,46 @@ const TotalSupply = () => {
             </thead>
             <tbody className="text-[#ffffff] font-medium text-xl opacity-90">
               <tr className="font-medium text-xl">
-                <td className="px-6 py-4 whitespace-no-wrap">$2347</td>
-                <td className="px-6 py-4 whitespace-no-wrap">3.00%</td>
-                <td className="px-6 py-4 whitespace-no-wrap">0.0000%</td>
-                <td className="px-6 py-4 whitespace-no-wrap">N/A</td>
+                <td className="px-6 py-5 whitespace-no-wrap">$2347</td>
+                <td className="px-6 py-5 whitespace-no-wrap">3.00%</td>
+                <td className="px-6 py-5 whitespace-no-wrap">0.0000%</td>
+                <td className="px-6 py-5 whitespace-no-wrap">N/A</td>
               </tr>
               <tr className="font-medium text-xl">
-                <td className="px-6 py-4 whitespace-no-wrap">$2347</td>
-                <td className="px-6 py-4 whitespace-no-wrap">3.00%</td>
-                <td className="px-6 py-4 whitespace-no-wrap">0.0000%</td>
-                <td className="px-6 py-4 whitespace-no-wrap">N/A</td>
+                <td className="px-6 py-5 whitespace-no-wrap">$2347</td>
+                <td className="px-6 py-5 whitespace-no-wrap">3.00%</td>
+                <td className="px-6 py-5 whitespace-no-wrap">0.0000%</td>
+                <td className="px-6 py-5 whitespace-no-wrap">N/A</td>
               </tr>
               <tr className="font-medium text-xl">
-                <td className="px-6 py-4 whitespace-no-wrap">$2347</td>
-                <td className="px-6 py-4 whitespace-no-wrap">3.00%</td>
-                <td className="px-6 py-4 whitespace-no-wrap">0.0000%</td>
-                <td className="px-6 py-4 whitespace-no-wrap">N/A</td>
+                <td className="px-6 py-5 whitespace-no-wrap">$2347</td>
+                <td className="px-6 py-5 whitespace-no-wrap">3.00%</td>
+                <td className="px-6 py-5 whitespace-no-wrap">0.0000%</td>
+                <td className="px-6 py-5 whitespace-no-wrap">N/A</td>
               </tr>
               <tr className="font-medium text-xl">
-                <td className="px-6 py-4 whitespace-no-wrap">$2347</td>
-                <td className="px-6 py-4 whitespace-no-wrap">3.00%</td>
-                <td className="px-6 py-4 whitespace-no-wrap">0.0000%</td>
-                <td className="px-6 py-4 whitespace-no-wrap">N/A</td>
+                <td className="px-6 py-5 whitespace-no-wrap">$2347</td>
+                <td className="px-6 py-5 whitespace-no-wrap">3.00%</td>
+                <td className="px-6 py-5 whitespace-no-wrap">0.0000%</td>
+                <td className="px-6 py-5 whitespace-no-wrap">N/A</td>
               </tr>
               <tr className="font-medium text-xl">
-                <td className="px-6 py-4 whitespace-no-wrap">$2347</td>
-                <td className="px-6 py-4 whitespace-no-wrap">3.00%</td>
-                <td className="px-6 py-4 whitespace-no-wrap">0.0000%</td>
-                <td className="px-6 py-4 whitespace-no-wrap">N/A</td>
+                <td className="px-6 py-5 whitespace-no-wrap">$2347</td>
+                <td className="px-6 py-5 whitespace-no-wrap">3.00%</td>
+                <td className="px-6 py-5 whitespace-no-wrap">0.0000%</td>
+                <td className="px-6 py-5 whitespace-no-wrap">N/A</td>
               </tr>
               <tr className="font-medium text-xl">
-                <td className="px-6 py-4 whitespace-no-wrap">$2347</td>
-                <td className="px-6 py-4 whitespace-no-wrap">3.00%</td>
-                <td className="px-6 py-4 whitespace-no-wrap">0.0000%</td>
-                <td className="px-6 py-4 whitespace-no-wrap">N/A</td>
+                <td className="px-6 py-5 whitespace-no-wrap">$2347</td>
+                <td className="px-6 py-5 whitespace-no-wrap">3.00%</td>
+                <td className="px-6 py-5 whitespace-no-wrap">0.0000%</td>
+                <td className="px-6 py-5 whitespace-no-wrap">N/A</td>
               </tr>
               <tr className="font-medium text-xl">
-                <td className="px-6 py-4 whitespace-no-wrap">$2347</td>
-                <td className="px-6 py-4 whitespace-no-wrap">3.00%</td>
-                <td className="px-6 py-4 whitespace-no-wrap">0.0000%</td>
-                <td className="px-6 py-4 whitespace-no-wrap">N/A</td>
+                <td className="px-6 py-5 whitespace-no-wrap">$2347</td>
+                <td className="px-6 py-5 whitespace-no-wrap">3.00%</td>
+                <td className="px-6 py-5 whitespace-no-wrap">0.0000%</td>
+                <td className="px-6 py-5 whitespace-no-wrap">N/A</td>
               </tr>
             </tbody>
           </table>

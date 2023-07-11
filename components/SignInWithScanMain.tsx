@@ -50,9 +50,11 @@ const SignInWithScanMain = () => {
                   Sign in
                 </button>
               </Link>
-              <div className="flex justify-center font-medium text-lg text-[#FFFFFF]">
-                Sign up
-              </div>
+              <Link href="/signup">
+                <div className="flex justify-center font-medium text-lg text-[#FFFFFF]">
+                  Sign up
+                </div>
+              </Link>
             </div>
           </div>
         </div>

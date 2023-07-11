@@ -38,13 +38,15 @@ const EnterMailBody = () => {
           </Link>
         </div>
         <div className="w-11/12 md:w-full bg-cover mx-auto">
-          <Image
-            className="w-full mt-8"
-            src="/image/imageForMail2.png"
-            width="100"
-            height="100"
-            alt="imageForMail"
-          />
+          <div>
+            <Image
+              className="w-full mt-8"
+              src="/image/imageForMail2.png"
+              width="100"
+              height="100"
+              alt="imageForMail"
+            />
+          </div>
         </div>
       </div>
     </section>
