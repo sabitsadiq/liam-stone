@@ -4,7 +4,7 @@ import React from "react";
 
 const SignUpBtn = () => {
   return (
-    <section className="w-11/12 md:w-1/2 xl:w-1/4 2xl:w-2/5 mx-auto">
+    <section className="w-11/12 md:w-2/5 lg:w-[30%] xl:w-1/4 2xl:w-1/4 mx-auto">
       <div className="">
         <Link href="/enterMail">
           <button className="bg-gradient-to-r from-[#E9420E] to-[#FFDD55] rounded-xl w-full mx-auto text-xl font-medium py-3 px-8 text-[#ffffff] opacity-90 mt-6">

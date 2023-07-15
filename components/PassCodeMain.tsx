@@ -29,7 +29,7 @@ const passcodeMain = () => {
           />
         </form>
       </div>
-      <div className="w-10/12 md:w-1/2 mx-auto gap-8  lg:w-2/5 xl:w-[30%]">
+      <div className="flex flex-col w-10/12 md:w-1/2 mx-auto gap-2  lg:w-2/5 xl:w-[30%]">
         <Link href="/welcome">
           <button className="bg-gradient-to-r from-[#E9420E] to-[#FFDD55] rounded-xl w-full text-2xl font-medium py-3 px-8 text-[#ffffff] opacity-90">
             Submit
@@ -37,12 +37,12 @@ const passcodeMain = () => {
         </Link>
         <Link
           href="#"
-          className="text-[#E9420E] text-sm border-b border-[#E9420E]"
+          className="text-[#E9420E] w-fit text-sm border-b border-[#E9420E]"
         >
           <span>Didn&rsquo;t receive the code?</span>
         </Link>
       </div>
-      <div className=" mt-8">
+      <div className="mt-8">
         <Link
           href="/"
           className="md:hidden font-medium text-sm md:text-2xl text-white"
