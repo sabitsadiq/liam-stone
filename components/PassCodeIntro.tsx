@@ -6,7 +6,7 @@ const passcodeIntro = () => {
       <div className="md:relative w-11/12 md:w-1/2 2xl:pt-4 mx-auto 2xl:w-2/5">
         <Link
           href="/enterMail"
-          className="hidden md:block md:absolute font-medium xl:text-2xl text-white top-2 2xl:top-6 -left-32 text-sm 2xl:-left-48"
+          className="hidden md:block md:absolute font-medium xl:text-xl text-white top-2 2xl:top-6 -left-32 text-sm 2xl:-left-48"
         >
           Back
         </Link>
